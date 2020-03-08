@@ -1,4 +1,4 @@
-https://kazakdmitry.github.io/singolo/index.html 
+https://kazakdmitry.github.io/singolo/
 там лежит
 
 я сделал все три singolo вовремя, только пришлось склеить(и когда склеивал получилась аброкадабра, потму что были 
