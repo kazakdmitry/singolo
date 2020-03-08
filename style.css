@@ -167,7 +167,7 @@ body {
   margin-top: 19px;
 }
 .block_12 ul li:hover {
-  color: #898a8f;
+  color: yellow;
   cursor: pointer;
 }
  .block_12 .first_li {
@@ -180,6 +180,7 @@ body {
   grid-column-gap: 20px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-top:0;
 }
 .block_12 .wrapper_1 > div > img {
   width: 220px;
@@ -432,4 +433,8 @@ footer .wrapper_footer p {
 }
 .social_media img {
   padding-right: 8px;
+}
+.social_media > img:hover {
+	background-color:lime;
+	cursor: pointer;
 }
