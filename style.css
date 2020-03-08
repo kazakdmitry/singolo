@@ -405,6 +405,13 @@ input::-webkit-input-placeholder {
   font-family: "Lato";
   font-weight: 400;
 }
+.some_info p a {
+	color:#f0d8d9;
+}
+.some_info p a:hover {
+	text-decoration:underline;
+	
+}
 .block_2 {
   height: 6px;
   background-color: #ea676b;
