@@ -407,9 +407,10 @@ input::-webkit-input-placeholder {
 }
 .some_info p a {
 	color:#f0d8d9;
+	text-decoration:none;
 }
 .some_info p a:hover {
-	text-decoration:underline;
+	cursor:pointer;
 	
 }
 .block_2 {
