@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+	
 </head>
 <body>
     <header>
@@ -13,10 +14,10 @@
         </div>
         <nav>
             <a href="">HOME</a>
-            <a href="">SERVICES</a>
-            <a href="">PORTFOLIO</a>
-            <a href="">ABOUT</a>
-            <a href="">CONTACT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
         </nav>
     </header>
     <div class="under_header"></div>
@@ -28,7 +29,7 @@
         <div class="footer_slider"></div>
     </div>
     <div class="header">
-        <h1>Our Services</h1>
+        <h1 id="services">Our Services</h1>
         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. 
         Duis mollis, non commodo luctus, nisi erat porttitor ligula, 
         eget lacinia odio sem nec elit.
@@ -102,7 +103,7 @@
 
     <div class="block_12">
         <div class="portfolio">
-            <h2>Portfolio</h2>
+            <h2 id="portfolio">Portfolio</h2>
             <p>Duis mollis, est non commodo luctus, 
             nisi erat porttitor ligula, eget lacinia odio 
             sem nec elit.
@@ -161,7 +162,7 @@
     <div class="footer_1"></div> 
     <div class="block_22">
         <div class="About_us">
-            <h2>About Us</h2>
+            <h2 id="about">About Us</h2>
             <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
             </p>
@@ -213,20 +214,21 @@
 
 
     <div class="block_13">
-        <h1>Get a Quote</h1>
+        <h1 id="contact">Get a Quote</h1>
         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. 
            Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
         </p>
         <div class="wrapper_1">
-            <div class="form">
-                <form action="">
+            <div class="form" style="position:relative">
+                <form onsubmit="return false;" >
                     <input type="text" placeholder ="Name(Reqiured)" required><br>
                     <input type="email" placeholder="Email (Required)" required><br>
                     <input type="text" placeholder="Subject"><br>
                     <textarea rows="3" placeholder="Describe your project in detail."></textarea>
-                    <button type="submit" >submit</button>
+                    <button type="submit" onclick="func()" >submit</button>
                 </form>
+				<div class="Dialog_form"></div>
             </div>
             <div class="info">
                 <h6>Contact Information</h6>
@@ -263,4 +265,5 @@
         </div>
     </footer
 </body>
+<script  src="script.js"></script>
 </html>
