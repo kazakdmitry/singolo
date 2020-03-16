@@ -5,8 +5,12 @@ const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
 
 anchors.forEach(function(item) {
   // каждому якорю присваиваем обработчик события
+  
   item.addEventListener('click', function(e) {
-    // убираем стандартное поведение
+    anchors.forEach(function(item){
+		item.style.color="white";
+	});
+	item.style.color="red";
     e.preventDefault();
     
     // для каждого якоря берем соответствующий ему элемент и определяем его координату Y
