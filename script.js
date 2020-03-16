@@ -122,3 +122,40 @@ function func(){
 }
 
 
+function iphone1(){
+	console.log("ghbdtn");
+	var iphone_vertical=document.getElementsByClassName('vertical_iphone');
+	
+	console.log(iphone_vertical);
+	
+	if ((iphone_vertical[0].style.opacity==="0")||(iphone_vertical[0].style.opacity==="")){
+		  iphone_vertical[0].style.opacity="1";
+			return true;
+	}
+	else if (iphone_vertical[0].style.opacity==="1"){
+		 iphone_vertical[0].style.opacity="0";
+		return true;
+	}
+	
+	
+}
+
+function iphone2(){
+	console.log("ghbdtn");
+	var iphone_gorizontal=document.getElementsByClassName('gorizontal_iphone');
+	
+	console.log();
+	
+	if ((iphone_gorizontal[0].style.opacity==="0")||(iphone_gorizontal[0].style.opacity==="")){
+		  iphone_gorizontal[0].style.opacity="1";
+			return true;
+	}
+	else if (iphone_gorizontal[0].style.opacity==="1"){
+		 iphone_gorizontal[0].style.opacity="0";
+		return true;
+	}
+	
+	
+}
+
+

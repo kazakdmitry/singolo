@@ -61,6 +61,53 @@ a:hover {
   right: 40px;
   top: 281px;
 }
+.vertical_iphone {
+	width:200px;
+	height:350px;
+	position:absolute;
+	background-color:black;
+	z-index:10;	
+	left:10px;
+	top:60px;
+	opacity:0;
+
+  }
+  .button_vertical_iphone{
+	position:absolute;
+	background-color:black;
+	z-index:10;	
+	left:87px;
+	top:410px;
+	opacity:0.5;
+	width:50px;
+	height:50px;
+	border-radius:50%;	
+	opacity:0.01;
+	
+  }
+  
+  .gorizontal_iphone {
+	width:350px;
+	height:200px;
+	position:absolute;
+	background-color:black;
+	z-index:10;	
+	left:60px;
+	top:10px;
+	opacity:0;
+
+  }
+  .button_gorizontal_iphone{
+	position:absolute;
+	background-color:black;
+	z-index:10;	
+	left:10px;
+	top:90px;
+	opacity:0.01;
+	width:50px;
+	height:50px;
+	border-radius:50%;	
+  }
 .arr_left:hover {
   background-color: gray;
 }
