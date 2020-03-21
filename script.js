@@ -174,7 +174,7 @@ function messImg(){
 	for (var k=0;k<12;k++){
 		img_12[0].appendChild(imgArr[randomArr[k]]);
 	}
-	
+	img_12[0].appenchild(imgArr[0]);
 };
 
 
