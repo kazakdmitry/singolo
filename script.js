@@ -162,4 +162,30 @@ function iphone2(){
 	
 }
 
+var img_12 = document.getElementsByClassName('wrapper_1');
+console.log(img_12);
+var imgArr=img_12[0].children;
+function messImg(){
+	randomArr=[];
+	var imgArr=img_12[0].children;
+	for(var i=0;i<12;i++){
+		randomArr.push(Math.floor(Math.random()*12));
+	}
+	for (var k=0;k<12;k++){
+		img_12[0].appendChild(imgArr[randomArr[k]]);
+	}
+	
+};
+
+
+
+
+
+
+
+
+
+
+
+
 
