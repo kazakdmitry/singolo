@@ -1,5 +1,6 @@
 body {
-  width: 1020px;
+  width:100%;		
+  max-width: 1020px;
   margin: auto;
 }
 header {
@@ -33,7 +34,7 @@ a:hover {
 .slider {
   background-color: #f06c64;
   height: 585px;
-  width: 1020px;
+  
   position: relative;
   overflow: hidden;
 }
@@ -43,23 +44,33 @@ a:hover {
 
 .arr_left {
   position: absolute;
-  top: 281px;
-  left: 33px;
+  left: 2.25%;
+	right: 96.18%;
+	top: 48.37606837606838%;
+	
 }
 .iphone-vertical {
   position: absolute;
-  top: 53px;
-  left: 110px;
+  top: 9.23076923076923%;
+  left: 10.98039215686275%;
+  max-width: 240px;
+	  max-height: 483px;
+	  
 }
 .iphone-horizontal {
   position: absolute;
-  top: 174px;
-  right: 110px;
+  top: 30.25641025641026%;
+  right: 10.98039215686275%;
+  max-width: 483px;
+	  max-height: 240px;
+	  
 }
 .arr_right {
   position: absolute;
-  right: 40px;
-  top: 281px;
+  left: 92.84%;
+	right: 5.59%;
+	top: 48.37606837606838%;
+	
 }
 .vertical_iphone {
 	width:200px;
@@ -109,10 +120,10 @@ a:hover {
 	border-radius:50%;	
   }
 .arr_left:hover {
-  background-color: gray;
+  opacity:0.5;
 }
 .arr_right:hover {
-  background-color: gray;
+  opacity:0.5;
 }
 .footer_slider {
   background-color: #ea676b;
@@ -496,4 +507,65 @@ footer .wrapper_footer p {
 .social_media > img:hover {
 	background-color:lime;
 	cursor: pointer;
+}
+
+@media screen and (max-width:1019px){
+	body {
+	  width:100%;		
+	  min-width: 768px;
+	  margin: auto;
+	}
+	.slider {
+	  background-color: #f06c64;
+	  height: 447.25px;
+	  
+	  position: relative;
+	  overflow: hidden;
+	}
+		.arr_left {
+	  position: absolute;
+	  left: 3.83072916666667%;
+		right: 96.18%;
+		top: 46.90100938551443%;
+		
+	}
+	.iphone-vertical img{
+	  max-width: 162.36px;
+	  max-height: 344.26px;
+	  max-width: 100%;
+      height: auto;
+	}
+	.iphone-horizontal img{
+	  max-width: 100%;
+	  height: auto;
+	  max-height: 180.93px;
+      max-width: 364.21px;
+	}
+	.iphone-vertical  {
+	  position: absolute;
+	  top: 9.23076923076923%;
+	  left: 10.98039215686275%;
+	  
+	  
+	}
+	.iphone-horizontal  {
+	  position: absolute;
+	  top: 30.25641025641026%;
+	  right: 10.98039215686275%;
+	  
+	  
+	}
+	.arr_right {
+	  position: absolute;
+	  left: 92.84%;
+		right: 3.49739583333333%;
+		top: 46.90100938551443%;
+	}
+	.arr_right:hover{
+		opacity:0.5;
+	}
+	.arr_left:hover{
+		opacity:0.5;
+	}
+	
 }
