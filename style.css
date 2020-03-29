@@ -289,37 +289,39 @@ text-align:justify;
   padding-right: 40px;
   margin-top: 49px;
 }
-.block_22 .wrapper_3 {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-column-gap: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+.block_22 .wrapper_2 h3{
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 18px;
+	/* or 100% */
+	margin-bottom:0;
+	margin-top:0;
+	padding-top:17px;
+	/* section-headers */
+
+	color: #666D89;
 }
-.block_22 .wrapper_3 h3 {
-  font-size: 18px;
-  color: #666d89;
-  line-height: 18px;
-  font-weight: 900;
-}
- .block_22 .wrapper_3 p {
-  font-size: 12px;
-  color: #767e9e;
-  line-height: 22px;
-  font-weight: 400;
-}
-.block_22 .wrapper_4 {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-column-gap: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 27px;
+.block_22 .wrapper_2 p{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 22px;
+	/* or 183% */
+	margin-bottom:0;
+	margin-top:0;
+	text-align: justify;
+	padding-top:9px;
+	/* section-descriptions */
+
+	color: #767E9E;
 }
 .block_22 .wrapper_4_inside {
   display: grid;
   grid-template-columns: 32px 32px 32px 32px;
   grid-column-gap: 8px;
+  	padding-top:12px;
 }
 .block_22 .wrapper_4_inside img:hover {
   background-color: lightgray;
@@ -798,41 +800,35 @@ h1 {
 	width: 218.94px;
     height: 218.94px;
 }
-.block_22 .wrapper_3 {
-  display: grid;
-  grid-template-columns: 31.92419825072886% 31.92419825072886% 31.92419825072886%;
-  grid-column-gap: 2.11807580174927%;
-  padding-left: 42px;
-  padding-right: 40px;
-}
-.block_22 .wrapper_3 h3 {
-  font-style: normal;
-font-weight: 900;
-font-size: 18px;
-line-height: 18px;
-margin-top:12.06px;
-margin-bottom:0;
-}
- .block_22 .wrapper_3 p {
-  font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 22px;
-margin-top:5px;
-margin-bottom:0;
+.block_22 .wrapper_2 h3{
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 18px;
+	/* or 100% */
+	margin-bottom:0;
+	margin-top:0;
+	padding-top:17px;
+	/* section-headers */
 
-text-align: justify;
-  color: #767e9e;
-  
+	color: #666D89;
 }
-.block_22 .wrapper_4 {
-  display: grid;
-  grid-template-columns: 31.92419825072886% 31.92419825072886% 31.92419825072886%;
-  grid-column-gap: 2.11807580174927%;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 5px;
+.block_22 .wrapper_2 p{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 22px;
+	/* or 183% */
+	margin-bottom:0;
+	margin-top:0;
+	text-align: justify;
+	padding-top:9px;
+	/* section-descriptions */
+
+	color: #767E9E;
 }
+
 .block_22 .wrapper_4_inside {
   display: grid;
   grid-template-columns: 32px 32px 32px 32px;
@@ -1309,37 +1305,40 @@ line-height: 30px;
 	width: 314px;
     height: 314px;
 }
-.block_22 .wrapper_3 {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-column-gap: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+.block_22 .wrapper_2 h3{
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 18px;
+	/* or 100% */
+	margin-bottom:0;
+	margin-top:0;
+	padding-top:18px;
+	/* section-headers */
+
+	color: #666D89;
 }
-.block_22 .wrapper_3 h3 {
-  font-size: 18px;
-  color: #666d89;
-  line-height: 18px;
-  font-weight: 900;
-}
- .block_22 .wrapper_3 p {
-  font-size: 12px;
-  color: #767e9e;
-  line-height: 22px;
-  font-weight: 400;
-}
-.block_22 .wrapper_4 {
-  display: grid;
-  grid-template-columns: 30px 30px 30px;
-  grid-column-gap: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 27px;
+.block_22 .wrapper_2 p{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 22px;
+	/* or 183% */
+	margin-bottom:0;
+	margin-top:0;
+	text-align: justify;
+	padding-top:5px;
+	/* section-descriptions */
+
+	color: #767E9E;
 }
 .block_22 .wrapper_4_inside {
   display: grid;
   grid-template-columns: 32px 32px 32px 32px;
   grid-column-gap: 8px;
+  padding-top:9px;
+  padding-bottom:34px;
 }
 .block_22 .wrapper_4_inside img:hover {
   background-color: lightgray;
